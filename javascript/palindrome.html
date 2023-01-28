@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>
+</title>
+<script>
+var t,r=0,n,d;
+n=prompt("enter a number");
+t=n;
+while(n)
+{
+ d=parseInt(n%10);
+ r=r*10+d;
+ n=parseInt(n/10);
+}
+document.write("the reverse of the given number is"+r);
+if(t==r)
+   document.write("given number is a palindrome");
+else
+   documenr.write("given number is not a palindrome");
+</script>
+</head>
+<body>
+</body>
+</html>
